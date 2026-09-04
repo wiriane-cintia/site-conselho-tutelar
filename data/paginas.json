@@ -1,11 +1,46 @@
 {
   "navegacao": [
-    { "chave": "inicio", "rota": "/", "view": "inicio", "rotulo": "Início" }
+    { "chave": "inicio", "rota": "/", "view": "inicio", "rotulo": "Início" },
+    { "chave": "como-denunciar", "rota": "/como-denunciar", "view": "generica", "rotulo": "Como denunciar" },
+    { "chave": "fui-procurado", "rota": "/fui-procurado", "view": "generica", "rotulo": "Fui procurado pelo Conselho" },
+    { "chave": "o-que-faz", "rota": "/o-que-faz", "view": "generica", "rotulo": "O que o Conselho faz" },
+    { "chave": "seus-direitos", "rota": "/seus-direitos", "view": "generica", "rotulo": "Seus direitos" },
+    { "chave": "para-escolas", "rota": "/para-escolas", "view": "generica", "rotulo": "Para escolas e profissionais" },
+    { "chave": "rede-de-protecao", "rota": "/rede-de-protecao", "view": "generica", "rotulo": "Rede de proteção" },
+    { "chave": "contato", "rota": "/contato", "view": "generica", "rotulo": "Contato" }
   ],
   "conteudo": {
     "inicio": {
       "titulo": "Página inicial Site Conselho Tutelar",
       "texto": "Testando a recarga automática!"
+    },
+    "como-denunciar": {
+      "titulo": "Como denunciar",
+      "texto": "«CONTEÚDO FICTÍCIO — Etapa 5» Texto provisório sobre como fazer uma denúncia ao Conselho Tutelar, incluindo se é possível manter o anonimato."
+    },
+    "fui-procurado": {
+      "titulo": "Fui procurado pelo Conselho",
+      "texto": "«CONTEÚDO FICTÍCIO — Etapa 5» Texto provisório explicando o que significa ser procurado pelo Conselho Tutelar e quais são os próximos passos."
+    },
+    "o-que-faz": {
+      "titulo": "O que o Conselho faz — e o que não faz",
+      "texto": "«CONTEÚDO FICTÍCIO — Etapa 5» Texto provisório explicando as atribuições do Conselho Tutelar e os limites da sua atuação."
+    },
+    "seus-direitos": {
+      "titulo": "Seus direitos",
+      "texto": "«CONTEÚDO FICTÍCIO — Etapa 5» Texto provisório sobre os direitos de crianças e adolescentes garantidos pelo ECA."
+    },
+    "para-escolas": {
+      "titulo": "Para escolas e profissionais",
+      "texto": "«CONTEÚDO FICTÍCIO — Etapa 5» Texto provisório sobre a obrigatoriedade de notificação por profissionais de escolas e áreas afins."
+    },
+    "rede-de-protecao": {
+      "titulo": "Rede de proteção",
+      "texto": "«CONTEÚDO FICTÍCIO — Etapa 5» Texto provisório listando os demais órgãos da rede de proteção à criança e ao adolescente."
+    },
+    "contato": {
+      "titulo": "Contato — os dois conselhos",
+      "texto": "«CONTEÚDO FICTÍCIO — Etapa 5» Texto provisório com endereço, telefone e horário de funcionamento do I e do II Conselho Tutelar."
     }
   }
 }
