@@ -1,0 +1,10 @@
+{
+  "titulo": "Precisa de ajuda agora?",
+  "texto": "Situações de risco não esperam. Estes canais atendem a qualquer hora:",
+  "itens": [
+    { "conselho": "conselho_1" },
+    { "conselho": "conselho_2" },
+    { "rotulo": "190 — Polícia Militar, para risco imediato", "href": "tel:190" },
+    { "rotulo": "100 — Disque Direitos Humanos, denúncia anônima", "href": "tel:100" }
+  ]
+}

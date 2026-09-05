@@ -1,0 +1,69 @@
+<section class="busca-bairro" aria-labelledby="titulo-busca">
+  <h2 class="busca-bairro__titulo" id="titulo-busca"><%= bairros.titulo %></h2>
+
+  <label class="busca-bairro__rotulo" for="campo-bairro"><%= bairros.instrucao %></label>
+  <input
+    type="text"
+    id="campo-bairro"
+    class="busca-bairro__campo"
+    autocomplete="off"
+    autocapitalize="off"
+    spellcheck="false"
+    placeholder="Ex.: São Miguel"
+    aria-describedby="ajuda-bairro"
+  >
+  <p class="busca-bairro__ajuda" id="ajuda-bairro">
+    Digite as primeiras letras do seu bairro. Não precisa acertar o acento.
+  </p>
+
+  <button type="button" class="busca-bairro__alternar" id="alternar-lista" aria-expanded="false" aria-controls="lista-bairros" hidden>
+    Ver todos os bairros
+  </button>
+
+  <p class="busca-bairro__contador" id="contador-bairros" role="status" aria-live="polite"></p>
+
+  <ul class="busca-bairro__lista" id="lista-bairros">
+    <% bairros.bairros.forEach(function (bairro) { %>
+      <li class="busca-bairro__item" data-nome="<%= bairro.nome %>" data-conselho="<%= bairro.conselho || '' %>">
+        <button type="button" class="busca-bairro__botao"><%= bairro.nome %></button>
+        <span class="busca-bairro__sem-js">
+          — <%= bairro.conselho ? conselhos[bairro.conselho].nome : 'ligue para qualquer um dos dois conselhos' %>
+        </span>
+      </li>
+    <% }); %>
+  </ul>
+
+  <div class="busca-bairro__resultado" id="resultado-bairro" tabindex="-1" role="status" aria-live="polite" hidden>
+    <p class="busca-bairro__resultado-titulo" id="resultado-titulo"></p>
+
+    <% ['conselho_1', 'conselho_2'].forEach(function (chave) { %>
+      <div class="busca-bairro__ficha" id="ficha-<%= chave %>" hidden>
+        <ul class="secao-contatos__lista">
+          <% conselhos[chave].telefones.forEach(function (tel, i) { %>
+            <li><%- include('telefone', { href: 'tel:' + conselhos[chave].telefones_link[i], rotulo: tel, tipo: 'telefone' }) %></li>
+          <% }); %>
+          <li><%- include('telefone', { href: 'https://wa.me/' + conselhos[chave].plantao_24h_link + '?text=Ol%C3%A1%2C%20preciso%20de%20ajuda', rotulo: 'Plantão 24h — ' + conselhos[chave].plantao_24h, tipo: 'whatsapp' }) %></li>
+          <% if (conselhos[chave].endereco) { %>
+            <li class="rodape__link rodape__link--icone">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <%= conselhos[chave].endereco %>
+            </li>
+          <% } %>
+        </ul>
+      </div>
+    <% }); %>
+
+    <div class="busca-bairro__ficha" id="ficha-indefinido" hidden>
+      <p>Esse bairro ainda não está dividido entre os dois conselhos. Ligue para qualquer um deles: os dois atendem e fazem o encaminhamento.</p>
+      <p><a href="/contato" class="botao botao--contorno">Ver os contatos dos dois conselhos</a></p>
+    </div>
+  </div>
+
+  <div class="busca-bairro__vazio" id="sem-resultado" role="status" aria-live="polite" hidden>
+    <p><strong>Não encontramos esse bairro na lista.</strong></p>
+    <p>Confira a escrita ou digite menos letras. Se o seu bairro não estiver aqui, ligue para qualquer um dos dois conselhos — eles orientam e encaminham.</p>
+    <p><a href="/contato" class="botao botao--contorno">Ver os contatos dos dois conselhos</a></p>
+  </div>
+
+  <p class="busca-bairro__aviso"><%= bairros.aviso %></p>
+</section>
