@@ -1,5 +1,7 @@
 {
   "nome": "Site do Conselho Tutelar de Juazeiro do Norte",
   "identidade": "ct",
-  "descricao": "Site oficial do Conselho Tutelar de Juazeiro do Norte/CE — direitos da criança e do adolescente, canais de atendimento e rede de proteção."
+  "prototipo": true,
+  "prototipo_texto": "PROTÓTIPO — conteúdo em validação pelo Conselho Tutelar. Não usar como fonte oficial.",
+  "descricao": "Site oficial do I e II Conselho Tutelar de Juazeiro do Norte/CE — direitos da criança e do adolescente, canais de atendimento e rede de proteção."
 }

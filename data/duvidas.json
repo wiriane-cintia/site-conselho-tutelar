@@ -1,0 +1,329 @@
+{
+  "botao": "Não sei por onde começar",
+  "titulo": "Vamos por partes",
+  "instrucao": "Escolha a situação mais parecida com a sua.",
+  "rotulo_voltar": "Voltar",
+  "rotulo_recomecar": "Começar de novo",
+  "rotulo_perguntas": "O que você quer saber?",
+  "situacoes": [
+    {
+      "id": "risco-imediato",
+      "rotulo": "Uma criança está em perigo agora",
+      "risco_imediato": true,
+      "resposta": {
+        "texto": [
+          "Não continue lendo. Ligue agora.",
+          "Se há agressão acontecendo ou risco de vida, o primeiro número é o 190. Depois disso, comunique também o Conselho Tutelar."
+        ],
+        "canais": [
+          {
+            "rotulo": "190 — Polícia Militar",
+            "href": "tel:190"
+          },
+          {
+            "conselho": "conselho_1"
+          },
+          {
+            "conselho": "conselho_2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "quero-avisar",
+      "rotulo": "Quero avisar sobre uma criança ou adolescente",
+      "perguntas": [
+        {
+          "rotulo": "Não tenho certeza se é caso para o Conselho",
+          "resposta": {
+            "texto": [
+              "Você não precisa ter certeza. Avaliar a situação é atribuição do Conselho Tutelar, não sua.",
+              "Violência, negligência, criança fora da escola, trabalho infantil e falta de acesso a saúde são todos casos para comunicar."
+            ],
+            "pagina": {
+              "rotulo": "Ver como denunciar",
+              "rota": "/como-denunciar"
+            },
+            "canais": [
+              {
+                "conselho": "conselho_1"
+              },
+              {
+                "rotulo": "100 — Disque Direitos Humanos",
+                "href": "tel:100"
+              }
+            ]
+          }
+        },
+        {
+          "rotulo": "Tenho medo de me identificar",
+          "resposta": {
+            "texto": [
+              "A comunicação pode ser anônima. Você não é obrigado a dizer seu nome.",
+              "Se você se identificar, seus dados servem apenas para o Conselho esclarecer informações, e não são repassados à família."
+            ],
+            "pagina": {
+              "rotulo": "Ver como denunciar",
+              "rota": "/como-denunciar"
+            },
+            "canais": [
+              {
+                "rotulo": "100 — Disque Direitos Humanos, anônimo e 24 horas",
+                "href": "tel:100"
+              },
+              {
+                "conselho": "conselho_2"
+              }
+            ]
+          }
+        },
+        {
+          "rotulo": "Não sei o que preciso informar",
+          "resposta": {
+            "texto": [
+              "Informe o que você souber: nome da criança, endereço ou ponto de referência, e o que você viu ou ouviu.",
+              "Informação incompleta não impede o atendimento. Não é você que precisa reunir provas."
+            ],
+            "pagina": {
+              "rotulo": "Ver a lista completa",
+              "rota": "/como-denunciar"
+            },
+            "canais": [
+              {
+                "conselho": "conselho_1"
+              },
+              {
+                "conselho": "conselho_2"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fui-chamado",
+      "rotulo": "Fui chamado ou visitado pelo Conselho",
+      "perguntas": [
+        {
+          "rotulo": "Vão tirar meu filho de mim?",
+          "resposta": {
+            "texto": [
+              "O Conselho Tutelar não retira criança da família por decisão própria. Só a Justiça pode decidir isso.",
+              "Na maioria dos casos o que acontece é encaminhamento para saúde, escola ou assistência social, e acompanhamento da família."
+            ],
+            "pagina": {
+              "rotulo": "Entender o que acontece agora",
+              "rota": "/fui-procurado"
+            },
+            "canais": [
+              {
+                "conselho": "conselho_1"
+              },
+              {
+                "conselho": "conselho_2"
+              }
+            ]
+          }
+        },
+        {
+          "rotulo": "Preciso de advogado?",
+          "resposta": {
+            "texto": [
+              "Não. O atendimento é gratuito e você pode comparecer sozinho, ou acompanhado por alguém de confiança."
+            ],
+            "pagina": {
+              "rotulo": "Ver o que levar",
+              "rota": "/fui-procurado"
+            },
+            "canais": [
+              {
+                "conselho": "conselho_1"
+              },
+              {
+                "conselho": "conselho_2"
+              }
+            ]
+          }
+        },
+        {
+          "rotulo": "Não posso comparecer na data marcada",
+          "resposta": {
+            "texto": [
+              "Avise o Conselho antes da data. Faltar sem justificar costuma agravar a situação; remarcar, não."
+            ],
+            "pagina": {
+              "rotulo": "Ver os contatos",
+              "rota": "/contato"
+            },
+            "canais": [
+              {
+                "conselho": "conselho_1"
+              },
+              {
+                "conselho": "conselho_2"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "profissional",
+      "rotulo": "Trabalho em escola, saúde ou assistência",
+      "perguntas": [
+        {
+          "rotulo": "Sou obrigado a comunicar?",
+          "resposta": {
+            "texto": [
+              "Sim. A lei determina que suspeita ou confirmação de castigo físico, tratamento cruel ou maus-tratos seja comunicada ao Conselho Tutelar.",
+              "Para médico, professor e responsável por escola ou creche, deixar de comunicar sujeita a multa."
+            ],
+            "pagina": {
+              "rotulo": "Ver como comunicar",
+              "rota": "/para-escolas"
+            },
+            "canais": [
+              {
+                "conselho": "conselho_1"
+              },
+              {
+                "conselho": "conselho_2"
+              }
+            ]
+          }
+        },
+        {
+          "rotulo": "Preciso ter certeza antes?",
+          "resposta": {
+            "texto": [
+              "Não. A lei fala em suspeita ou confirmação. Investigar e avaliar não é papel da escola nem do serviço de saúde.",
+              "Não confronte a família e não faça entrevista investigativa com a criança: isso pode aumentar o risco."
+            ],
+            "pagina": {
+              "rotulo": "Ver os sinais de alerta",
+              "rota": "/para-escolas"
+            },
+            "canais": [
+              {
+                "conselho": "conselho_1"
+              },
+              {
+                "conselho": "conselho_2"
+              }
+            ]
+          }
+        },
+        {
+          "rotulo": "Preciso avisar a família?",
+          "resposta": {
+            "texto": [
+              "Não é exigido. Em suspeita de violência dentro de casa, avisar pode aumentar o risco para a criança."
+            ],
+            "pagina": {
+              "rotulo": "Ver a orientação completa",
+              "rota": "/para-escolas"
+            },
+            "canais": [
+              {
+                "conselho": "conselho_1"
+              },
+              {
+                "conselho": "conselho_2"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sou-crianca",
+      "rotulo": "Sou criança ou adolescente e preciso de ajuda",
+      "perguntas": [
+        {
+          "rotulo": "Apanho ou sou humilhado em casa",
+          "resposta": {
+            "texto": [
+              "Ninguém pode bater em você como castigo, nem humilhar, nem ameaçar. Isso não é normal e não é culpa sua.",
+              "Você pode procurar o Conselho Tutelar sozinho. Não precisa de autorização de nenhum adulto."
+            ],
+            "pagina": {
+              "rotulo": "Ver seus direitos",
+              "rota": "/seus-direitos"
+            },
+            "canais": [
+              {
+                "rotulo": "100 — gratuito, 24 horas, sem dizer seu nome",
+                "href": "tel:100"
+              },
+              {
+                "conselho": "conselho_1"
+              }
+            ]
+          }
+        },
+        {
+          "rotulo": "Não estou conseguindo estudar",
+          "resposta": {
+            "texto": [
+              "Estudar é um direito seu, e o Conselho Tutelar pode exigir vaga na escola e conversar com a sua família."
+            ],
+            "pagina": {
+              "rotulo": "Ver seus direitos",
+              "rota": "/seus-direitos"
+            },
+            "canais": [
+              {
+                "conselho": "conselho_1"
+              },
+              {
+                "conselho": "conselho_2"
+              }
+            ]
+          }
+        },
+        {
+          "rotulo": "Estou preocupado com um amigo",
+          "resposta": {
+            "texto": [
+              "Você pode pedir ajuda por outra pessoa, e não precisa se identificar."
+            ],
+            "pagina": {
+              "rotulo": "Ver como avisar",
+              "rota": "/como-denunciar"
+            },
+            "canais": [
+              {
+                "rotulo": "100 — gratuito e anônimo",
+                "href": "tel:100"
+              },
+              {
+                "conselho": "conselho_2"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "sem_correspondencia": {
+    "rotulo": "Nenhuma dessas é a minha situação",
+    "resposta": {
+      "texto": [
+        "Tudo bem. Esta lista não cobre tudo, e não saber encaixar a sua situação não é motivo para desistir.",
+        "Fale direto com o Conselho Tutelar: eles avaliam o caso e, se não for atribuição deles, encaminham para o órgão certo."
+      ],
+      "canais": [
+        {
+          "conselho": "conselho_1"
+        },
+        {
+          "conselho": "conselho_2"
+        },
+        {
+          "rotulo": "100 — Disque Direitos Humanos, 24 horas e anônimo",
+          "href": "tel:100"
+        }
+      ]
+    }
+  }
+}
