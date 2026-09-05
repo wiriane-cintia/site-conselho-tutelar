@@ -1,0 +1,25 @@
+{
+  "titulo": "O que você precisa?",
+  "itens": [
+    {
+      "rotulo": "Quero denunciar uma situação",
+      "descricao": "Como avisar o Conselho Tutelar sobre uma criança ou adolescente em risco. Você não precisa ter certeza nem se identificar.",
+      "rota": "/como-denunciar"
+    },
+    {
+      "rotulo": "Fui procurado pelo Conselho",
+      "descricao": "Recebi uma notificação ou visita. Entenda o que acontece agora — e o que o Conselho não pode fazer.",
+      "rota": "/fui-procurado"
+    },
+    {
+      "rotulo": "Trabalho em escola ou serviço público",
+      "descricao": "Quando e como comunicar um caso. Para quem atende crianças e adolescentes, comunicar é obrigação legal.",
+      "rota": "/para-escolas"
+    },
+    {
+      "rotulo": "Sou criança ou adolescente",
+      "descricao": "Seus direitos, o que ninguém pode fazer com você e como pedir ajuda por conta própria.",
+      "rota": "/seus-direitos"
+    }
+  ]
+}

@@ -11,36 +11,422 @@
   ],
   "conteudo": {
     "inicio": {
-      "titulo": "Página inicial Site Conselho Tutelar",
-      "texto": "Testando a recarga automática!"
+      "titulo": "Proteção de crianças e adolescentes em Juazeiro do Norte",
+      "texto": "O Conselho Tutelar atende situações em que os direitos de uma criança ou de um adolescente estão sendo ameaçados ou violados. O atendimento é gratuito e você não precisa de advogado. Em caso de risco imediato de vida, ligue 190.",
+      "secoes": [
+        {
+          "tipo": "lista",
+          "titulo": "Quando procurar o Conselho Tutelar",
+          "itens": [
+            "Violência física, psicológica ou sexual contra criança ou adolescente",
+            "Negligência, abandono ou falta de cuidados básicos",
+            "Criança ou adolescente fora da escola, sem matrícula ou faltando muito",
+            "Trabalho infantil ou exploração",
+            "Criança ou adolescente sem acesso a atendimento de saúde ou a documentos",
+            "Uso de álcool ou outras drogas por criança ou adolescente",
+            "Qualquer outra situação que coloque uma criança ou adolescente em risco"
+          ]
+        },
+        {
+          "tipo": "aviso",
+          "titulo": "Na dúvida, comunique",
+          "texto": "Você não precisa ter certeza nem provas para acionar o Conselho Tutelar. Quem avalia a situação é o Conselho. Comunicar uma suspeita não é acusar ninguém: é pedir que alguém olhe para aquela criança."
+        }
+      ]
     },
     "como-denunciar": {
       "titulo": "Como denunciar",
-      "texto": "«CONTEÚDO FICTÍCIO — Etapa 5» Texto provisório sobre como fazer uma denúncia ao Conselho Tutelar, incluindo se é possível manter o anonimato."
+      "texto": "Qualquer pessoa pode comunicar ao Conselho Tutelar uma situação de risco envolvendo criança ou adolescente. Não é preciso ter prova, nem certeza, nem se identificar.",
+      "secoes": [
+        {
+          "tipo": "aviso",
+          "titulo": "Se o risco é agora",
+          "texto": "Se há agressão acontecendo neste momento ou risco imediato de vida, ligue 190 (Polícia Militar). Depois comunique também o Conselho Tutelar."
+        },
+        {
+          "tipo": "passos",
+          "titulo": "Como fazer",
+          "itens": [
+            {
+              "titulo": "Reúna o que você souber",
+              "texto": "Nome e endereço da criança ou adolescente, mesmo que aproximados, e o que você viu ou ouviu. Informação incompleta não impede o atendimento."
+            },
+            {
+              "titulo": "Escolha o canal",
+              "texto": "Você pode ligar para o Conselho Tutelar do seu território, chamar no WhatsApp do plantão ou comparecer pessoalmente. Fora do horário de expediente, use o plantão de 24 horas."
+            },
+            {
+              "titulo": "Relate o que está acontecendo",
+              "texto": "Conte de forma objetiva o que motivou a sua preocupação. Se preferir não se identificar, informe isso logo no início."
+            },
+            {
+              "titulo": "O Conselho avalia e age",
+              "texto": "O caso é registrado e o Conselho verifica a situação, aplica as medidas de proteção necessárias e encaminha a família aos serviços adequados."
+            }
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O que ajuda a informar",
+          "itens": [
+            "Nome da criança ou do adolescente e idade aproximada",
+            "Endereço ou ponto de referência de onde ela mora ou é vista",
+            "Nome dos pais, responsáveis ou de quem convive com ela",
+            "Escola onde estuda, se você souber",
+            "O que você presenciou e há quanto tempo a situação acontece",
+            "Se existe risco de a situação piorar hoje"
+          ]
+        },
+        {
+          "tipo": "perguntas",
+          "titulo": "Dúvidas mais comuns",
+          "itens": [
+            {
+              "pergunta": "Posso denunciar sem me identificar?",
+              "resposta": "Pode. A comunicação pode ser anônima. Se você se identificar, seus dados são usados apenas para o Conselho esclarecer informações e não são repassados à família denunciada."
+            },
+            {
+              "pergunta": "E se eu estiver enganado?",
+              "resposta": "Não há problema. Comunicar de boa-fé uma suspeita não gera punição. É melhor uma visita desnecessária do que uma criança sem socorro."
+            },
+            {
+              "pergunta": "Preciso de provas, fotos ou documentos?",
+              "resposta": "Não. Reunir provas não é papel de quem comunica. Basta relatar o que você viu ou ouviu."
+            },
+            {
+              "pergunta": "Criança ou adolescente pode procurar o Conselho sozinho?",
+              "resposta": "Pode, e será atendido. Nenhuma criança ou adolescente precisa da autorização de um adulto para pedir ajuda ao Conselho Tutelar."
+            },
+            {
+              "pergunta": "E se o caso for em outra cidade?",
+              "resposta": "Comunique mesmo assim. O Conselho encaminha o caso ao Conselho Tutelar da cidade onde a criança está. Você também pode ligar 100, que funciona 24 horas em todo o país."
+            }
+          ]
+        },
+        {
+          "tipo": "telefones",
+          "titulo": "Outros canais, 24 horas",
+          "itens": [
+            { "rotulo": "100 — Disque Direitos Humanos, gratuito e anônimo", "href": "tel:100" },
+            { "rotulo": "190 — Polícia Militar, para risco imediato", "href": "tel:190" }
+          ]
+        }
+      ]
     },
     "fui-procurado": {
-      "titulo": "Fui procurado pelo Conselho",
-      "texto": "«CONTEÚDO FICTÍCIO — Etapa 5» Texto provisório explicando o que significa ser procurado pelo Conselho Tutelar e quais são os próximos passos."
+      "titulo": "Fui procurado pelo Conselho Tutelar",
+      "texto": "Receber uma notificação ou uma visita do Conselho Tutelar assusta, mas isso não significa que você vai perder a guarda do seu filho. Esta página explica o que acontece a partir daqui.",
+      "secoes": [
+        {
+          "tipo": "aviso",
+          "titulo": "Compareça",
+          "texto": "O atendimento é gratuito e obrigatório. Comparecer quando é chamado é o melhor caminho: é a ausência que costuma agravar a situação. Se não puder ir na data marcada, avise o Conselho antes."
+        },
+        {
+          "tipo": "passos",
+          "titulo": "O que acontece agora",
+          "itens": [
+            {
+              "titulo": "Você é ouvido",
+              "texto": "O Conselho escuta a sua versão dos fatos. Você pode levar documentos e pessoas que conheçam a situação da família."
+            },
+            {
+              "titulo": "A situação é avaliada",
+              "texto": "O Conselho verifica se existe ameaça ou violação de direitos da criança ou do adolescente."
+            },
+            {
+              "titulo": "São aplicadas medidas de proteção",
+              "texto": "Na maioria dos casos isso significa encaminhamento para saúde, escola, assistência social ou programas de apoio à família. Afastamento é exceção, não regra."
+            },
+            {
+              "titulo": "O caso é acompanhado",
+              "texto": "O Conselho acompanha se as medidas estão sendo cumpridas e mantém o registro do atendimento."
+            }
+          ]
+        },
+        {
+          "tipo": "perguntas",
+          "titulo": "Dúvidas mais comuns",
+          "itens": [
+            {
+              "pergunta": "O Conselho Tutelar pode tirar meu filho de mim?",
+              "resposta": "Não por decisão própria. Só a Justiça pode decidir o afastamento de uma criança da família. O Conselho só age de imediato diante de risco flagrante e, mesmo assim, precisa comunicar a Justiça em seguida."
+            },
+            {
+              "pergunta": "O Conselho decide quem fica com a guarda?",
+              "resposta": "Não. Guarda é decisão exclusiva do Poder Judiciário. Questões de guarda, visitas e pensão devem ser tratadas na Vara de Família, com apoio da Defensoria Pública se você não tiver advogado."
+            },
+            {
+              "pergunta": "O Conselho investiga crime?",
+              "resposta": "Não. Investigação criminal é da polícia. Quando identifica indício de crime, o Conselho encaminha o caso ao Ministério Público ou à autoridade policial."
+            },
+            {
+              "pergunta": "Preciso de advogado?",
+              "resposta": "Não. O atendimento é gratuito e você pode comparecer sozinho. Se quiser, pode levar alguém de sua confiança."
+            },
+            {
+              "pergunta": "Quem me denunciou?",
+              "resposta": "Essa informação não é revelada. A comunicação pode ser anônima, e proteger quem comunica é o que permite que casos de violência cheguem ao conhecimento do Conselho."
+            }
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Leve com você, se tiver",
+          "itens": [
+            "Documento de identidade com foto",
+            "Certidão de nascimento da criança ou do adolescente",
+            "Cartão do SUS e cartão de vacinação",
+            "Comprovante de matrícula ou declaração escolar",
+            "Receitas, laudos ou relatórios médicos, se houver"
+          ]
+        }
+      ]
     },
     "o-que-faz": {
       "titulo": "O que o Conselho faz — e o que não faz",
-      "texto": "«CONTEÚDO FICTÍCIO — Etapa 5» Texto provisório explicando as atribuições do Conselho Tutelar e os limites da sua atuação."
+      "texto": "O Conselho Tutelar é o órgão encarregado de zelar pelo cumprimento dos direitos da criança e do adolescente. Ele não é polícia, não é juiz e não é serviço social: é quem recebe a situação, avalia e aciona quem tem que resolver.",
+      "secoes": [
+        {
+          "tipo": "lista",
+          "titulo": "O que o Conselho faz",
+          "itens": [
+            "Recebe e avalia comunicações sobre ameaça ou violação de direitos",
+            "Escuta a criança, o adolescente e a família",
+            "Aplica medidas de proteção, como encaminhamento a saúde, escola e assistência social",
+            "Requisita serviços públicos, como matrícula escolar, atendimento médico e emissão de documentos",
+            "Orienta e acompanha famílias",
+            "Encaminha ao Ministério Público os casos que exigem providência judicial",
+            "Fiscaliza entidades e locais frequentados por crianças e adolescentes"
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O que o Conselho não faz",
+          "itens": [
+            "Não investiga crime — isso é da polícia",
+            "Não prende ninguém",
+            "Não decide guarda, visita ou pensão alimentícia — isso é da Justiça",
+            "Não retira criança da família por decisão própria, fora de situação de risco flagrante",
+            "Não substitui os pais nem a autoridade da família: orienta, não assume o lugar",
+            "Não aplica medida socioeducativa a adolescente que cometeu ato infracional"
+          ]
+        },
+        {
+          "tipo": "aviso",
+          "titulo": "Sobre castigo físico",
+          "texto": "A lei determina que casos de suspeita ou confirmação de castigo físico, tratamento cruel ou degradante e maus-tratos contra criança ou adolescente sejam obrigatoriamente comunicados ao Conselho Tutelar."
+        },
+        {
+          "tipo": "destaque",
+          "titulo": "Não sabe se o seu caso é aqui?",
+          "texto": "Procure mesmo assim. Se não for atribuição do Conselho, você será orientado sobre qual órgão procura e, quando necessário, o próprio Conselho faz o encaminhamento."
+        }
+      ]
     },
     "seus-direitos": {
       "titulo": "Seus direitos",
-      "texto": "«CONTEÚDO FICTÍCIO — Etapa 5» Texto provisório sobre os direitos de crianças e adolescentes garantidos pelo ECA."
+      "texto": "Esta página é para você que é criança ou adolescente. Direito não é favor: é o que a lei garante para você, e ninguém pode tirar.",
+      "secoes": [
+        {
+          "tipo": "lista",
+          "titulo": "Você tem direito a",
+          "itens": [
+            "Viver com segurança, sem apanhar e sem ser humilhado",
+            "Ter comida, casa, roupa e cuidados de saúde",
+            "Estudar em escola pública e gratuita, perto de onde você mora",
+            "Brincar, praticar esporte e ter tempo livre",
+            "Viver com a sua família e conviver com a sua comunidade",
+            "Ser ouvido e ter a sua opinião levada a sério nas decisões que afetam a sua vida",
+            "Ser respeitado do jeito que você é, sem sofrer preconceito",
+            "Ser protegido de qualquer forma de violência, exploração e abuso"
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Ninguém pode",
+          "itens": [
+            "Bater em você como forma de castigo",
+            "Humilhar, xingar ou ameaçar você",
+            "Tocar no seu corpo de um jeito que você não quer",
+            "Obrigar você a trabalhar quando você deveria estar estudando",
+            "Impedir que você vá à escola",
+            "Obrigar você a se casar ou a ter qualquer relação com alguém",
+            "Deixar você sem comida, sem cuidado ou sozinho em situação de perigo"
+          ]
+        },
+        {
+          "tipo": "aviso",
+          "titulo": "Sobre trabalhar",
+          "texto": "Trabalhar só é permitido a partir dos 16 anos. Entre 14 e 16 anos, apenas como aprendiz, com contrato e sem atrapalhar a escola. Antes dos 18 anos, ninguém pode trabalhar à noite, em lugar perigoso ou que faça mal à saúde."
+        },
+        {
+          "tipo": "perguntas",
+          "titulo": "Perguntas de quem quer pedir ajuda",
+          "itens": [
+            {
+              "pergunta": "Posso procurar o Conselho Tutelar sozinho?",
+              "resposta": "Pode. Você não precisa de autorização de nenhum adulto para pedir ajuda, e será atendido."
+            },
+            {
+              "pergunta": "Vão contar para a minha família o que eu falei?",
+              "resposta": "O Conselho vai conversar com você antes de qualquer coisa e explicar o que pode acontecer. A sua proteção é a prioridade em todas as decisões."
+            },
+            {
+              "pergunta": "E se a pessoa que me machuca for da minha família?",
+              "resposta": "Você pode procurar o Conselho do mesmo jeito. Violência dentro de casa é a situação que mais chega ao Conselho Tutelar, e existe proteção para esses casos."
+            },
+            {
+              "pergunta": "Posso pedir ajuda por outra pessoa?",
+              "resposta": "Pode. Se você está preocupado com um amigo, um irmão ou um colega da escola, comunique. Você não precisa se identificar."
+            }
+          ]
+        },
+        {
+          "tipo": "destaque",
+          "titulo": "Se você não conseguir falar com ninguém",
+          "texto": "Ligue 100. É gratuito, funciona todos os dias, a qualquer hora, e você não precisa dizer o seu nome."
+        }
+      ]
     },
     "para-escolas": {
       "titulo": "Para escolas e profissionais",
-      "texto": "«CONTEÚDO FICTÍCIO — Etapa 5» Texto provisório sobre a obrigatoriedade de notificação por profissionais de escolas e áreas afins."
+      "texto": "Quem trabalha com crianças e adolescentes costuma ser a primeira pessoa a perceber que algo está errado. Por isso a lei não deixa essa comunicação a critério de cada um: ela é obrigatória.",
+      "secoes": [
+        {
+          "tipo": "aviso",
+          "titulo": "O que a lei determina",
+          "texto": "O Estatuto da Criança e do Adolescente determina que os casos de suspeita ou confirmação de castigo físico, tratamento cruel ou degradante e maus-tratos contra criança ou adolescente sejam obrigatoriamente comunicados ao Conselho Tutelar da localidade."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Quem tem esse dever",
+          "paragrafos": [
+            "O Estatuto prevê penalidade de multa para o médico, o professor ou o responsável por estabelecimento de atenção à saúde e de ensino fundamental, pré-escola ou creche que deixar de comunicar à autoridade competente os casos de que tenha conhecimento envolvendo suspeita ou confirmação de maus-tratos, com aplicação em dobro no caso de reincidência.",
+            "Na prática, isso alcança escolas, creches, unidades de saúde, equipes do CRAS e do CREAS e demais serviços que atendem crianças e adolescentes."
+          ]
+        },
+        {
+          "tipo": "passos",
+          "titulo": "Como comunicar",
+          "itens": [
+            {
+              "titulo": "Registre o que foi observado",
+              "texto": "Descreva fatos, não conclusões: o que foi visto, ouvido ou relatado, com data. Evite julgamentos sobre a família."
+            },
+            {
+              "titulo": "Não investigue por conta própria",
+              "texto": "Não confronte a família nem faça entrevista investigativa com a criança. Isso pode agravar o risco e prejudicar a apuração."
+            },
+            {
+              "titulo": "Comunique ao Conselho Tutelar",
+              "texto": "Envie a comunicação por escrito sempre que possível, guardando cópia no serviço. Em situação de urgência, ligue primeiro e formalize depois."
+            },
+            {
+              "titulo": "Continue acompanhando",
+              "texto": "A comunicação não encerra o papel da escola ou do serviço. Mantenha o acompanhamento e informe o Conselho se a situação mudar."
+            }
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Sinais que merecem atenção",
+          "itens": [
+            "Lesões frequentes, em fases diferentes de cicatrização ou com explicação que não combina com a lesão",
+            "Queda brusca no rendimento escolar ou nas faltas",
+            "Medo de voltar para casa ou de determinada pessoa",
+            "Mudança repentina de comportamento, isolamento ou agressividade",
+            "Higiene, alimentação ou vestuário em condição muito abaixo do adequado",
+            "Comportamento sexualizado incompatível com a idade",
+            "Criança ou adolescente assumindo trabalho ou responsabilidades de adulto"
+          ]
+        },
+        {
+          "tipo": "perguntas",
+          "titulo": "Dúvidas frequentes nas escolas",
+          "itens": [
+            {
+              "pergunta": "Preciso ter certeza antes de comunicar?",
+              "resposta": "Não. A lei fala em suspeita ou confirmação. Avaliar a procedência é atribuição do Conselho Tutelar, não do serviço que comunica."
+            },
+            {
+              "pergunta": "A escola pode ser responsabilizada por comunicar?",
+              "resposta": "Comunicar de boa-fé é cumprimento de dever legal. O risco jurídico existe no sentido contrário: deixar de comunicar é que sujeita o profissional a penalidade."
+            },
+            {
+              "pergunta": "Precisamos avisar a família de que vamos comunicar?",
+              "resposta": "Não é exigido, e em situações de suspeita de violência intrafamiliar avisar pode aumentar o risco para a criança."
+            },
+            {
+              "pergunta": "E quando o problema é evasão escolar?",
+              "resposta": "Também é caso de comunicação. Garantir a frequência escolar é uma das atribuições do Conselho, que pode requisitar vaga e acionar a família."
+            }
+          ]
+        }
+      ]
     },
     "rede-de-protecao": {
       "titulo": "Rede de proteção",
-      "texto": "«CONTEÚDO FICTÍCIO — Etapa 5» Texto provisório listando os demais órgãos da rede de proteção à criança e ao adolescente."
+      "texto": "O Conselho Tutelar não resolve tudo sozinho — e não deve. Ele funciona junto com outros órgãos, cada um com um papel. Saber a quem recorrer economiza tempo, e em situação de risco tempo é proteção.",
+      "secoes": [
+        {
+          "tipo": "telefones",
+          "titulo": "Emergência, a qualquer hora",
+          "itens": [
+            { "rotulo": "190 — Polícia Militar, para violência em andamento", "href": "tel:190" },
+            { "rotulo": "192 — SAMU, para emergência médica", "href": "tel:192" },
+            { "rotulo": "193 — Corpo de Bombeiros", "href": "tel:193" },
+            { "rotulo": "100 — Disque Direitos Humanos, denúncia anônima 24 horas", "href": "tel:100" }
+          ]
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Quem faz o quê",
+          "paragrafos": [
+            "CRAS: acompanha famílias em situação de vulnerabilidade e dá acesso a benefícios e programas sociais. É a porta de entrada da assistência social.",
+            "CREAS: atende famílias e pessoas que já tiveram direitos violados, incluindo casos de violência e trabalho infantil.",
+            "Unidade Básica de Saúde e CAPS: atendimento de saúde e saúde mental, inclusive para crianças e adolescentes.",
+            "Delegacia de Polícia: registra ocorrência e investiga crime.",
+            "Ministério Público: fiscaliza o cumprimento dos direitos e aciona a Justiça quando necessário.",
+            "Defensoria Pública: assistência jurídica gratuita para quem não pode pagar advogado.",
+            "Vara da Infância e da Juventude: decide judicialmente sobre guarda, adoção e medidas de proteção que exigem ordem judicial."
+          ]
+        },
+        {
+          "tipo": "aviso",
+          "titulo": "Endereços e horários locais",
+          "texto": "«A CONFIRMAR COM O CONSELHO» Esta seção será preenchida com os endereços, telefones e horários dos serviços da rede em Juazeiro do Norte."
+        }
+      ]
     },
     "contato": {
-      "titulo": "Contato — os dois conselhos",
-      "texto": "«CONTEÚDO FICTÍCIO — Etapa 5» Texto provisório com endereço, telefone e horário de funcionamento do I e do II Conselho Tutelar."
+      "titulo": "Contato",
+      "texto": "Juazeiro do Norte tem dois Conselhos Tutelares, que dividem o atendimento por região da cidade. Se você não souber qual é o seu, pode ligar para qualquer um dos dois: você será orientado ou encaminhado.",
+      "secoes": [
+        {
+          "tipo": "contatos",
+          "titulo": "Os dois conselhos"
+        },
+        {
+          "tipo": "aviso",
+          "titulo": "Fora do horário de expediente",
+          "texto": "O plantão de 24 horas funciona todos os dias, inclusive fins de semana e feriados, para situações urgentes."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Se for comparecer pessoalmente, leve",
+          "itens": [
+            "Documento de identidade com foto",
+            "Certidão de nascimento da criança ou do adolescente, se o atendimento for sobre ela",
+            "Qualquer documento relacionado ao caso, como declaração escolar ou laudo médico"
+          ]
+        },
+        {
+          "tipo": "aviso",
+          "titulo": "Horário de atendimento e território",
+          "texto": "«A CONFIRMAR COM O CONSELHO» Serão informados aqui o horário de funcionamento de cada conselho, o endereço do I Conselho Tutelar e quais bairros cada um atende."
+        }
+      ]
     }
   }
 }
