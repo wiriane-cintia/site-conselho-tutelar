@@ -1,13 +1,59 @@
 {
   "navegacao": [
-    { "chave": "inicio", "rota": "/", "view": "inicio", "rotulo": "Início" },
-    { "chave": "como-denunciar", "rota": "/como-denunciar", "view": "generica", "rotulo": "Como denunciar" },
-    { "chave": "fui-procurado", "rota": "/fui-procurado", "view": "generica", "rotulo": "Fui procurado pelo Conselho" },
-    { "chave": "o-que-faz", "rota": "/o-que-faz", "view": "generica", "rotulo": "O que o Conselho faz" },
-    { "chave": "seus-direitos", "rota": "/seus-direitos", "view": "generica", "rotulo": "Seus direitos" },
-    { "chave": "para-escolas", "rota": "/para-escolas", "view": "generica", "rotulo": "Para escolas e profissionais" },
-    { "chave": "rede-de-protecao", "rota": "/rede-de-protecao", "view": "generica", "rotulo": "Rede de proteção" },
-    { "chave": "contato", "rota": "/contato", "view": "generica", "rotulo": "Contato" }
+    {
+      "chave": "inicio",
+      "rota": "/",
+      "view": "inicio",
+      "rotulo": "Início"
+    },
+    {
+      "chave": "como-denunciar",
+      "rota": "/como-denunciar",
+      "view": "generica",
+      "rotulo": "Como denunciar"
+    },
+    {
+      "chave": "fui-procurado",
+      "rota": "/fui-procurado",
+      "view": "generica",
+      "rotulo": "Fui procurado pelo Conselho"
+    },
+    {
+      "chave": "o-que-faz",
+      "rota": "/o-que-faz",
+      "view": "generica",
+      "rotulo": "O que o Conselho faz"
+    },
+    {
+      "chave": "seus-direitos",
+      "rota": "/seus-direitos",
+      "view": "generica",
+      "rotulo": "Seus direitos"
+    },
+    {
+      "chave": "para-escolas",
+      "rota": "/para-escolas",
+      "view": "generica",
+      "rotulo": "Para escolas e profissionais"
+    },
+    {
+      "chave": "rede-de-protecao",
+      "rota": "/rede-de-protecao",
+      "view": "generica",
+      "rotulo": "Rede de proteção"
+    },
+    {
+      "chave": "contato",
+      "rota": "/contato",
+      "view": "generica",
+      "rotulo": "Contato"
+    },
+    {
+      "chave": "orientacao",
+      "rota": "/orientacao",
+      "view": "orientacao",
+      "rotulo": "Orientação passo a passo"
+    }
   ],
   "conteudo": {
     "inicio": {
@@ -107,8 +153,14 @@
           "tipo": "telefones",
           "titulo": "Outros canais, 24 horas",
           "itens": [
-            { "rotulo": "100 — Disque Direitos Humanos, gratuito e anônimo", "href": "tel:100" },
-            { "rotulo": "190 — Polícia Militar, para risco imediato", "href": "tel:190" }
+            {
+              "rotulo": "100 — Disque Direitos Humanos, gratuito e anônimo",
+              "href": "tel:100"
+            },
+            {
+              "rotulo": "190 — Polícia Militar, para risco imediato",
+              "href": "tel:190"
+            }
           ]
         }
       ]
@@ -373,10 +425,22 @@
           "tipo": "telefones",
           "titulo": "Emergência, a qualquer hora",
           "itens": [
-            { "rotulo": "190 — Polícia Militar, para violência em andamento", "href": "tel:190" },
-            { "rotulo": "192 — SAMU, para emergência médica", "href": "tel:192" },
-            { "rotulo": "193 — Corpo de Bombeiros", "href": "tel:193" },
-            { "rotulo": "100 — Disque Direitos Humanos, denúncia anônima 24 horas", "href": "tel:100" }
+            {
+              "rotulo": "190 — Polícia Militar, para violência em andamento",
+              "href": "tel:190"
+            },
+            {
+              "rotulo": "192 — SAMU, para emergência médica",
+              "href": "tel:192"
+            },
+            {
+              "rotulo": "193 — Corpo de Bombeiros",
+              "href": "tel:193"
+            },
+            {
+              "rotulo": "100 — Disque Direitos Humanos, denúncia anônima 24 horas",
+              "href": "tel:100"
+            }
           ]
         },
         {
@@ -427,6 +491,10 @@
           "texto": "«A CONFIRMAR COM O CONSELHO» Serão informados aqui o horário de funcionamento de cada conselho, o endereço do I Conselho Tutelar e quais bairros cada um atende."
         }
       ]
+    },
+    "orientacao": {
+      "titulo": "Orientação passo a passo",
+      "texto": "Se você não sabe por onde começar, escolha abaixo a situação mais parecida com a sua. As mesmas perguntas aparecem no botão “Não sei por onde começar”, presente em todas as páginas."
     }
   }
 }
