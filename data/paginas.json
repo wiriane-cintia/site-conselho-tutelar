@@ -457,9 +457,8 @@
           ]
         },
         {
-          "tipo": "aviso",
-          "titulo": "Endereços e horários locais",
-          "texto": "«A CONFIRMAR COM O CONSELHO» Esta seção será preenchida com os endereços, telefones e horários dos serviços da rede em Juazeiro do Norte."
+          "tipo": "rede",
+          "titulo": "Onde ficam os serviços em Juazeiro do Norte"
         }
       ]
     },
