@@ -1,24 +1,35 @@
 <section class="busca-bairro" aria-labelledby="titulo-busca">
-  <h2 class="busca-bairro__titulo" id="titulo-busca"><%= bairros.titulo %></h2>
+  <h2 class="apenas-leitor" id="titulo-busca"><%= bairros.titulo %></h2>
 
-  <label class="busca-bairro__rotulo" for="campo-bairro"><%= bairros.instrucao %></label>
-  <input
-    type="text"
-    id="campo-bairro"
-    class="busca-bairro__campo"
-    autocomplete="off"
-    autocapitalize="off"
-    spellcheck="false"
-    placeholder="Ex.: São Miguel"
-    aria-describedby="ajuda-bairro"
-  >
-  <p class="busca-bairro__ajuda" id="ajuda-bairro">
-    Digite as primeiras letras do seu bairro. Não precisa acertar o acento.
-  </p>
+  <div class="busca-bairro__linha">
+    <label class="apenas-leitor" for="campo-bairro"><%= bairros.titulo %></label>
+    <span class="busca-bairro__caixa">
+      <svg class="busca-bairro__lupa" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg>
+      <input
+        type="text"
+        id="campo-bairro"
+        class="busca-bairro__campo"
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+        placeholder="<%= bairros.titulo %>"
+        data-placeholder-curto="<%= bairros.titulo_curto || bairros.titulo %>"
+      >
+      <button type="button" class="busca-bairro__limpar" id="limpar-busca" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"></line><line x1="18" y1="6" x2="6" y2="18"></line></svg>
+        <span class="apenas-leitor">Limpar a busca</span>
+      </button>
+    </span>
 
-  <button type="button" class="busca-bairro__alternar" id="alternar-lista" aria-expanded="false" aria-controls="lista-bairros" hidden>
-    Ver todos os bairros
-  </button>
+    <button type="button" class="busca-bairro__alternar" id="alternar-lista" aria-expanded="false" aria-controls="lista-bairros" hidden>
+      <span
+        class="busca-bairro__alternar-texto"
+        data-rotulo-fechado="<%= bairros.rotulo_lista || 'Listar bairros' %>"
+        data-rotulo-aberto="<%= bairros.rotulo_lista_aberta || 'Fechar lista' %>"
+      ><%= bairros.rotulo_lista || 'Listar bairros' %></span>
+      <svg class="busca-bairro__seta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+    </button>
+  </div>
 
   <p class="busca-bairro__contador" id="contador-bairros" role="status" aria-live="polite"></p>
 
@@ -44,10 +55,7 @@
           <% }); %>
           <li><%- include('telefone', { href: 'https://wa.me/' + conselhos[chave].plantao_24h_link + '?text=Ol%C3%A1%2C%20preciso%20de%20ajuda', rotulo: 'Plantão 24h — ' + conselhos[chave].plantao_24h, tipo: 'whatsapp' }) %></li>
           <% if (conselhos[chave].endereco) { %>
-            <li class="rodape__link rodape__link--icone">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-              <%= conselhos[chave].endereco %>
-            </li>
+            <li><%- include('endereco', { texto: conselhos[chave].endereco, mapa: conselhos[chave].endereco_mapa }) %></li>
           <% } %>
         </ul>
       </div>
@@ -61,9 +69,7 @@
 
   <div class="busca-bairro__vazio" id="sem-resultado" role="status" aria-live="polite" hidden>
     <p><strong>Não encontramos esse bairro na lista.</strong></p>
-    <p>Confira a escrita ou digite menos letras. Se o seu bairro não estiver aqui, ligue para qualquer um dos dois conselhos — eles orientam e encaminham.</p>
+    <p><%= bairros.aviso %></p>
     <p><a href="/contato" class="botao botao--contorno">Ver os contatos dos dois conselhos</a></p>
   </div>
-
-  <p class="busca-bairro__aviso"><%= bairros.aviso %></p>
 </section>

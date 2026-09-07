@@ -1,0 +1,30 @@
+{
+  "colunas": [
+    {
+      "titulo": "I Conselho Tutelar",
+      "itens": [
+        { "conselho": "conselho_1", "campo": "telefones" },
+        { "conselho": "conselho_1", "campo": "plantao" },
+        { "conselho": "conselho_1", "campo": "endereco" },
+        { "conselho": "conselho_1", "campo": "instagram" }
+      ]
+    },
+    {
+      "titulo": "II Conselho Tutelar",
+      "itens": [
+        { "conselho": "conselho_2", "campo": "telefones" },
+        { "conselho": "conselho_2", "campo": "plantao" },
+        { "conselho": "conselho_2", "campo": "endereco" },
+        { "conselho": "conselho_2", "campo": "instagram" }
+      ]
+    },
+    {
+      "titulo": "Emergência, 24 horas",
+      "itens": [
+        { "rotulo": "190 — Polícia Militar", "href": "tel:190" },
+        { "rotulo": "192 — SAMU", "href": "tel:192" },
+        { "rotulo": "100 — Disque Direitos Humanos", "href": "tel:100" }
+      ]
+    }
+  ]
+}
