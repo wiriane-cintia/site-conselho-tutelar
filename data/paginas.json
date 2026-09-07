@@ -77,8 +77,20 @@
           "tipo": "aviso",
           "titulo": "Na dúvida, comunique",
           "texto": "Você não precisa ter certeza nem provas para acionar o Conselho Tutelar. Quem avalia a situação é o Conselho. Comunicar uma suspeita não é acusar ninguém: é pedir que alguém olhe para aquela criança."
+        },
+        {
+          "tipo": "destaque",
+          "titulo": "A violência contra a mãe também atinge a criança",
+          "texto": "A Lei 13.431/2017 diz que a criança que presencia violência contra alguém de quem ela gosta é vítima de violência psicológica — não é testemunha. Os mesmos conselhos mantêm um site com os serviços de atendimento à mulher em Juazeiro do Norte, o que a Lei Maria da Penha garante e o que fazer em caso de risco.",
+          "link": {
+            "rotulo": "Abrir o site da Rede de Proteção",
+            "href": "https://TROCAR-PELO-ENDERECO-DO-SITE-DE-VIOLENCIA-DOMESTICA",
+            "externo": true
+          }
         }
-      ]
+      ],
+      "resumo": "Página inicial do site",
+      "titulo_aba": "Início"
     },
     "como-denunciar": {
       "titulo": "Como denunciar",
@@ -163,7 +175,9 @@
             }
           ]
         }
-      ]
+      ],
+      "resumo": "Como avisar o Conselho sobre uma criança em risco",
+      "icone": "denunciar"
     },
     "fui-procurado": {
       "titulo": "Fui procurado pelo Conselho Tutelar",
@@ -233,7 +247,9 @@
             "Receitas, laudos ou relatórios médicos, se houver"
           ]
         }
-      ]
+      ],
+      "resumo": "O que acontece quando o Conselho procura a família",
+      "icone": "documento"
     },
     "o-que-faz": {
       "titulo": "O que o Conselho faz — e o que não faz",
@@ -274,7 +290,9 @@
           "titulo": "Não sabe se o seu caso é aqui?",
           "texto": "Procure mesmo assim. Se não for atribuição do Conselho, você será orientado sobre qual órgão procura e, quando necessário, o próprio Conselho faz o encaminhamento."
         }
-      ]
+      ],
+      "resumo": "As atribuições do Conselho e os limites da atuação",
+      "icone": "escudo"
     },
     "seus-direitos": {
       "titulo": "Seus direitos",
@@ -339,7 +357,9 @@
           "titulo": "Se você não conseguir falar com ninguém",
           "texto": "Ligue 100. É gratuito, funciona todos os dias, a qualquer hora, e você não precisa dizer o seu nome."
         }
-      ]
+      ],
+      "resumo": "Direitos de crianças e adolescentes, em linguagem direta",
+      "icone": "crianca"
     },
     "para-escolas": {
       "titulo": "Para escolas e profissionais",
@@ -415,12 +435,24 @@
             }
           ]
         }
-      ]
+      ],
+      "resumo": "Obrigação legal de comunicar e como fazer",
+      "icone": "escola"
     },
     "rede-de-protecao": {
       "titulo": "Rede de proteção",
       "texto": "O Conselho Tutelar não resolve tudo sozinho — e não deve. Ele funciona junto com outros órgãos, cada um com um papel. Saber a quem recorrer economiza tempo, e em situação de risco tempo é proteção.",
       "secoes": [
+        {
+          "tipo": "destaque",
+          "titulo": "Violência doméstica contra a mulher",
+          "texto": "Quando a violência atinge a mãe ou a responsável, atinge também a criança que mora na casa. Existe um site separado, feito pelos mesmos conselhos, com os serviços de atendimento à mulher em Juazeiro do Norte, o que a Lei Maria da Penha garante e o que fazer em caso de risco.",
+          "link": {
+            "rotulo": "Abrir o site da Rede de Proteção",
+            "href": "https://TROCAR-PELO-ENDERECO-DO-SITE-DE-VIOLENCIA-DOMESTICA",
+            "externo": true
+          }
+        },
         {
           "tipo": "telefones",
           "titulo": "Emergência, a qualquer hora",
@@ -460,7 +492,9 @@
           "tipo": "rede",
           "titulo": "Onde ficam os serviços em Juazeiro do Norte"
         }
-      ]
+      ],
+      "resumo": "Órgãos da rede e onde ficam em Juazeiro do Norte",
+      "icone": "apoiar"
     },
     "contato": {
       "titulo": "Contato",
@@ -488,12 +522,26 @@
           "tipo": "aviso",
           "titulo": "Horário de atendimento e território",
           "texto": "«A CONFIRMAR COM O CONSELHO» Serão informados aqui o horário de funcionamento de cada conselho, o endereço do I Conselho Tutelar e quais bairros cada um atende."
+        },
+        {
+          "tipo": "destaque",
+          "titulo": "Procurando ajuda por violência doméstica?",
+          "texto": "Se a situação envolve violência contra uma mulher, uma pessoa idosa ou uma pessoa com deficiência da mesma casa, existe um site separado, feito pelos mesmos conselhos, com os serviços que atendem cada uma dessas situações na cidade.",
+          "link": {
+            "rotulo": "Abrir o site da Rede de Proteção",
+            "href": "https://TROCAR-PELO-ENDERECO-DO-SITE-DE-VIOLENCIA-DOMESTICA",
+            "externo": true
+          }
         }
-      ]
+      ],
+      "resumo": "Telefones, endereços e plantão dos dois conselhos",
+      "icone": "telefone"
     },
     "orientacao": {
       "titulo": "Orientação passo a passo",
-      "texto": "Se você não sabe por onde começar, escolha abaixo a situação mais parecida com a sua. As mesmas perguntas aparecem no botão “Não sei por onde começar”, presente em todas as páginas."
+      "texto": "Se você não sabe por onde começar, escolha abaixo a situação mais parecida com a sua. As mesmas perguntas aparecem no botão “Não sei por onde começar”, presente em todas as páginas.",
+      "resumo": "Perguntas e respostas por situação",
+      "icone": "bussola"
     }
   }
 }
