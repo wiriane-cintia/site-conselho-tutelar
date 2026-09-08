@@ -1,0 +1,205 @@
+{
+  "titulo": "É com o Conselho Tutelar?",
+  "instrucao": "Escolha a situação mais parecida com a sua. A resposta abre aqui mesmo, com o telefone de quem resolve.",
+  "resumo": "14 situações do dia a dia, com o telefone de quem resolve cada uma",
+  "rotulo_sim": "É com o Conselho",
+  "rotulo_nao": "Não é com o Conselho",
+  "itens": [
+    {
+      "rotulo": "Uma criança está apanhando ou sendo humilhada em casa",
+      "icone": "socorro",
+      "e_do_conselho": true,
+      "resposta": "Sim. Violência física, psicológica ou sexual contra criança e adolescente é o caso central do Conselho Tutelar. Você não precisa de prova nem de certeza, e pode comunicar sem se identificar.",
+      "aviso": "Se a agressão está acontecendo neste momento, ligue 190 primeiro. A Polícia vai ao local, verifica a situação e aciona o Conselho Tutelar.",
+      "canais": [
+        {
+          "rotulo": "190 — Polícia Militar, se é agora",
+          "href": "tel:190"
+        },
+        {
+          "conselho": "conselho_1"
+        },
+        {
+          "conselho": "conselho_2"
+        }
+      ]
+    },
+    {
+      "rotulo": "Uma criança está fora da escola ou faltando muito",
+      "icone": "escola",
+      "e_do_conselho": true,
+      "resposta": "Sim. Criança e adolescente fora da escola, sem matrícula ou com faltas seguidas, é direito ameaçado. O Conselho aciona a escola e a rede para garantir a vaga e o retorno.",
+      "canais": [
+        {
+          "conselho": "conselho_1"
+        },
+        {
+          "conselho": "conselho_2"
+        }
+      ]
+    },
+    {
+      "rotulo": "Uma criança está sem comida, sem cuidado ou sozinha",
+      "icone": "crianca",
+      "e_do_conselho": true,
+      "resposta": "Sim. Negligência e abandono são situações de direito violado. O Conselho avalia e aciona a assistência social, que pode incluir a família em programas e benefícios.",
+      "canais": [
+        {
+          "conselho": "conselho_1"
+        },
+        {
+          "conselho": "conselho_2"
+        }
+      ]
+    },
+    {
+      "rotulo": "Uma criança está sem documento, sem vaga em creche ou sem atendimento de saúde",
+      "icone": "documento",
+      "e_do_conselho": true,
+      "resposta": "Sim. Garantir acesso a documento, escola, creche e saúde é atribuição do Conselho Tutelar, que requisita o serviço ao órgão responsável.",
+      "canais": [
+        {
+          "conselho": "conselho_1"
+        },
+        {
+          "conselho": "conselho_2"
+        }
+      ]
+    },
+    {
+      "rotulo": "Uma criança ou adolescente está trabalhando",
+      "icone": "denunciar",
+      "e_do_conselho": true,
+      "resposta": "Sim. Trabalho infantil e exploração são casos do Conselho Tutelar, que aciona também os órgãos de fiscalização do trabalho.",
+      "canais": [
+        {
+          "conselho": "conselho_1"
+        },
+        {
+          "conselho": "conselho_2"
+        }
+      ]
+    },
+    {
+      "rotulo": "Um adolescente está usando álcool ou outras drogas",
+      "icone": "apoiar",
+      "e_do_conselho": true,
+      "resposta": "Sim. O Conselho encaminha para atendimento em saúde e acompanha a família. O CAPS Infantil atende criança e adolescente no município.",
+      "canais": [
+        {
+          "conselho": "conselho_1"
+        },
+        {
+          "conselho": "conselho_2"
+        }
+      ]
+    },
+    {
+      "rotulo": "Uma criança ou adolescente está em surto",
+      "icone": "socorro",
+      "e_do_conselho": false,
+      "resposta": "Não é o Conselho Tutelar. Surto psicótico é emergência médica: quem atende é o SAMU avançado.",
+      "canais": [
+        {
+          "rotulo": "192 — SAMU",
+          "href": "tel:192"
+        }
+      ]
+    },
+    {
+      "rotulo": "Um adolescente está cometendo um crime neste momento",
+      "icone": "escudo",
+      "e_do_conselho": false,
+      "resposta": "Não é o Conselho Tutelar. Ato infracional em flagrante é caso de polícia. O Conselho entra depois, para acompanhar o adolescente e a família.",
+      "canais": [
+        {
+          "rotulo": "190 — Polícia Militar",
+          "href": "tel:190"
+        }
+      ]
+    },
+    {
+      "rotulo": "Uma criança está na rua ou pedindo em semáforo",
+      "icone": "mapa",
+      "e_do_conselho": false,
+      "resposta": "Não é o Conselho Tutelar. Quem atende criança e adolescente em situação de rua é a Abordagem Social, serviço da assistência social do município.",
+      "canais": [
+        {
+          "rotulo": "Abordagem Social — (88) 93618-0148",
+          "href": "tel:+5588936180148"
+        }
+      ]
+    },
+    {
+      "rotulo": "Quero passar a guarda, discutir visita ou pensão",
+      "icone": "balanca",
+      "e_do_conselho": false,
+      "resposta": "Não é o Conselho Tutelar. Guarda, visita e pensão são decisões da Justiça. Procure a Vara da Infância e da Juventude ou a Defensoria Pública, que orienta de graça quem não pode pagar advogado.",
+      "canais": [],
+      "rede": [
+        "Defensoria Pública do Estado do Ceará",
+        "Ministério Público e Vara da Infância e da Juventude"
+      ]
+    },
+    {
+      "rotulo": "Não aguento mais meu filho e quero deixar ele em algum lugar",
+      "icone": "duvida",
+      "e_do_conselho": false,
+      "resposta": "O Conselho Tutelar não é abrigo e não recebe criança entregue pela família. Mas procure assim mesmo: existe apoio para famílias no limite, pelo CRAS e pelo CREAS, e é para isso que o Conselho encaminha.",
+      "canais": [
+        {
+          "conselho": "conselho_1"
+        },
+        {
+          "conselho": "conselho_2"
+        }
+      ]
+    },
+    {
+      "rotulo": "Quero que alguém vá em casa dar um susto no meu filho",
+      "icone": "escudo",
+      "e_do_conselho": false,
+      "resposta": "Não é o que o Conselho Tutelar faz. Ele não aplica castigo e não serve para amedrontar criança e adolescente. O que ele faz é aplicar medidas de proteção previstas em lei e encaminhar a família para apoio.",
+      "canais": [
+        {
+          "conselho": "conselho_1"
+        },
+        {
+          "conselho": "conselho_2"
+        }
+      ]
+    },
+    {
+      "rotulo": "Preciso que a criança conte o que sofreu",
+      "icone": "documento",
+      "e_do_conselho": false,
+      "resposta": "A escuta especializada não é feita pelo conselheiro tutelar. Existe um setor próprio, com técnico especializado, e é para lá que o Conselho encaminha. Comunique ao Conselho e ele faz o encaminhamento.",
+      "canais": [
+        {
+          "conselho": "conselho_1"
+        },
+        {
+          "conselho": "conselho_2"
+        }
+      ]
+    },
+    {
+      "rotulo": "A violência é contra a mãe, não contra a criança",
+      "icone": "cadeado",
+      "e_do_conselho": true,
+      "resposta": "É dos dois. A Lei 13.431/2017 diz que a criança que presencia violência contra alguém de quem gosta também é vítima. Comunique o Conselho Tutelar pela criança e acione o atendimento à mulher pela mãe.",
+      "canais": [
+        {
+          "rotulo": "180 — Central de Atendimento à Mulher",
+          "href": "tel:180"
+        },
+        {
+          "conselho": "conselho_1"
+        },
+        {
+          "conselho": "conselho_2"
+        }
+      ]
+    }
+  ]
+}

@@ -13,16 +13,16 @@
       "rotulo": "Como denunciar"
     },
     {
-      "chave": "fui-procurado",
-      "rota": "/fui-procurado",
-      "view": "generica",
-      "rotulo": "Fui procurado pelo Conselho"
-    },
-    {
       "chave": "o-que-faz",
       "rota": "/o-que-faz",
       "view": "generica",
       "rotulo": "O que o Conselho faz"
+    },
+    {
+      "chave": "fui-procurado",
+      "rota": "/fui-procurado",
+      "view": "generica",
+      "rotulo": "Fui procurado pelo Conselho"
     },
     {
       "chave": "seus-direitos",
@@ -59,20 +59,13 @@
     "inicio": {
       "titulo": "Proteção de crianças e adolescentes em Juazeiro do Norte",
       "texto": "O Conselho Tutelar atende situações em que os direitos de uma criança ou de um adolescente estão sendo ameaçados ou violados. O atendimento é gratuito e você não precisa de advogado. Em caso de risco imediato de vida, ligue 190.",
-      "secoes": [
+      "secoes_topo": [
         {
-          "tipo": "lista",
-          "titulo": "Quando procurar o Conselho Tutelar",
-          "itens": [
-            "Violência física, psicológica ou sexual contra criança ou adolescente",
-            "Negligência, abandono ou falta de cuidados básicos",
-            "Criança ou adolescente fora da escola, sem matrícula ou faltando muito",
-            "Trabalho infantil ou exploração",
-            "Criança ou adolescente sem acesso a atendimento de saúde ou a documentos",
-            "Uso de álcool ou outras drogas por criança ou adolescente",
-            "Qualquer outra situação que coloque uma criança ou adolescente em risco"
-          ]
-        },
+          "tipo": "situacoes",
+          "recolhido": true
+        }
+      ],
+      "secoes": [
         {
           "tipo": "aviso",
           "titulo": "Na dúvida, comunique",
@@ -98,8 +91,8 @@
       "secoes": [
         {
           "tipo": "aviso",
-          "titulo": "Se o risco é agora",
-          "texto": "Se há agressão acontecendo neste momento ou risco imediato de vida, ligue 190 (Polícia Militar). Depois comunique também o Conselho Tutelar."
+          "titulo": "Se a violência está acontecendo agora",
+          "texto": "Ligue 190. Segundo o Conselho Tutelar de Juazeiro do Norte, em situação de violência em andamento a Polícia vai primeiro: ela verifica a situação no local e aciona o Conselho Tutelar. Se houver ferimento, ligue também 192, do SAMU. Fora do risco imediato, comunique direto ao Conselho pelo plantão, que funciona 24 horas."
         },
         {
           "tipo": "passos",
@@ -122,6 +115,16 @@
               "texto": "O caso é registrado e o Conselho verifica a situação, aplica as medidas de proteção necessárias e encaminha a família aos serviços adequados."
             }
           ]
+        },
+        {
+          "tipo": "destaque",
+          "titulo": "Você pode comunicar sem se identificar",
+          "texto": "O Conselho Tutelar de Juazeiro do Norte confirma: a comunicação anônima é aceita e a situação é apurada da mesma forma. Vale por telefone, por e-mail e pessoalmente — basta dizer que não quer que seus dados sejam revelados. Os outros canais, como o 100, também aceitam denúncia sem identificação."
+        },
+        {
+          "tipo": "aviso",
+          "titulo": "Quanto tempo leva até o primeiro atendimento",
+          "texto": "Segundo o Conselho Tutelar de Juazeiro do Norte, no máximo duas semanas. Situações de risco grave e iminente não esperam esse prazo: são atendidas na hora, pelo plantão."
         },
         {
           "tipo": "lista",
@@ -172,6 +175,28 @@
             {
               "rotulo": "190 — Polícia Militar, para risco imediato",
               "href": "tel:190"
+            }
+          ]
+        },
+        {
+          "tipo": "passos",
+          "titulo": "O que acontece depois que você comunica",
+          "itens": [
+            {
+              "titulo": "A pessoa suspeita é notificada",
+              "texto": "O Conselho notifica quem é apontado como violador para comparecer à sede."
+            },
+            {
+              "titulo": "O Conselho aplica medidas de proteção",
+              "texto": "São as medidas previstas nos artigos 101 e 129 do Estatuto da Criança e do Adolescente, escolhidas conforme a situação."
+            },
+            {
+              "titulo": "Em risco grave e iminente, a ação é imediata",
+              "texto": "No plantão, o Conselho pode retirar a criança ou o adolescente do ambiente de risco na hora. Procura primeiro a família extensa — uma tia, uma avó, alguém de vínculo. Se não houver, encaminha para a unidade de acolhimento."
+            },
+            {
+              "titulo": "O caso segue para a rede e para o Ministério Público",
+              "texto": "O Conselho encaminha para CREAS, CRAS, escuta especializada e saúde, e leva ao Ministério Público os casos que exigem providência judicial."
             }
           ]
         }
@@ -246,6 +271,26 @@
             "Comprovante de matrícula ou declaração escolar",
             "Receitas, laudos ou relatórios médicos, se houver"
           ]
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Quando o Conselho pode retirar uma criança da família",
+          "paragrafos": [
+            "Só existem duas situações, e o próprio Conselho Tutelar de Juazeiro do Norte as descreve assim:",
+            "Quando a criança ou o adolescente está exposto a risco grave e iminente — é o artigo 101, inciso VII e parágrafo 1º, do Estatuto da Criança e do Adolescente. Nesse caso o Conselho age na hora e comunica a Justiça em seguida.",
+            "Quando um juiz determina, oficialmente, que o Conselho faça a busca e apreensão.",
+            "Fora dessas duas situações, a saída de uma criança da família é decisão judicial. E, mesmo no caso de risco, a primeira busca é por alguém da própria família — uma tia, uma avó, alguém de vínculo. O acolhimento institucional é a última alternativa, não a primeira."
+          ]
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Se a criança precisar sair de casa, a primeira opção é a própria família",
+          "paragrafos": [
+            "Quando há risco grave, o Conselho Tutelar procura primeiro alguém do convívio da criança — uma tia, uma avó, alguém de vínculo afetivo. Só quando não existe essa possibilidade é que se recorre à unidade de acolhimento.",
+            "Quem recebe a criança assina um termo de responsabilidade com o Conselho e passa a acompanhar os passos seguintes: registro da ocorrência com pedido de medida protetiva, exame de corpo de delito quando for o caso, atendimento de saúde e acompanhamento psicológico.",
+            "O Conselho leva o caso ao Ministério Público por meio de uma Notícia de Fato, com os documentos reunidos, e encaminha a família ao CREAS, ao CRAS, à escuta especializada e à saúde.",
+            "O objetivo de todo esse fluxo é proteger a criança. O que acontece com quem cometeu a violência é decisão da polícia e da Justiça, não do Conselho."
+          ]
         }
       ],
       "resumo": "O que acontece quando o Conselho procura a família",
@@ -255,6 +300,9 @@
       "titulo": "O que o Conselho faz — e o que não faz",
       "texto": "O Conselho Tutelar é o órgão encarregado de zelar pelo cumprimento dos direitos da criança e do adolescente. Ele não é polícia, não é juiz e não é serviço social: é quem recebe a situação, avalia e aciona quem tem que resolver.",
       "secoes": [
+        {
+          "tipo": "situacoes"
+        },
         {
           "tipo": "lista",
           "titulo": "O que o Conselho faz",
@@ -281,6 +329,36 @@
           ]
         },
         {
+          "tipo": "texto",
+          "titulo": "Se não é o Conselho, é quem — na prática",
+          "paragrafos": [
+            "Esta lista foi montada com o Conselho Tutelar de Juazeiro do Norte, a partir do que mais chega e não é atribuição dele.",
+            "Criança ou adolescente em surto psicótico: ligue 192, SAMU avançado.",
+            "Criança ou adolescente pego em flagrante cometendo ato infracional: ligue 190, Polícia Militar.",
+            "Criança ou adolescente sofrendo violência neste momento: ligue 190 primeiro. A polícia vai ao local, verifica a situação e aciona o Conselho Tutelar.",
+            "Criança ou adolescente em situação de rua, pedindo em semáforo: Abordagem Social, (88) 93618-0148.",
+            "Escuta especializada da criança ou do adolescente: existe um setor próprio, com técnico especializado. Não é o conselheiro tutelar quem faz."
+          ]
+        },
+        {
+          "tipo": "perguntas",
+          "titulo": "As três perguntas que mais chegam por telefone",
+          "itens": [
+            {
+              "pergunta": "Não aguento mais meu filho. Posso deixar ele no Conselho Tutelar?",
+              "resposta": "Não. O Conselho Tutelar não é abrigo e não recebe crianças entregues pela família. O acolhimento só acontece quando há risco e depois de esgotada a busca por alguém da própria família. Se você está no limite, procure o Conselho assim mesmo: existe apoio para a família, pelo CRAS e pelo CREAS, e é disso que se trata."
+            },
+            {
+              "pergunta": "Vocês podem ir na minha casa dar um susto no meu filho?",
+              "resposta": "Não. O Conselho Tutelar não aplica castigo nem serve para amedrontar criança e adolescente. Ele aplica medidas de proteção previstas em lei, que podem incluir acompanhamento da família, encaminhamento a serviço de saúde e apoio da assistência social."
+            },
+            {
+              "pergunta": "Quero passar a guarda do meu filho. Posso ir ao Conselho?",
+              "resposta": "Guarda é decisão da Justiça, não do Conselho Tutelar. Procure a Vara da Infância e da Juventude ou a Defensoria Pública, que orienta de graça quem não pode pagar advogado."
+            }
+          ]
+        },
+        {
           "tipo": "aviso",
           "titulo": "Sobre castigo físico",
           "texto": "A lei determina que casos de suspeita ou confirmação de castigo físico, tratamento cruel ou degradante e maus-tratos contra criança ou adolescente sejam obrigatoriamente comunicados ao Conselho Tutelar."
@@ -289,6 +367,11 @@
           "tipo": "destaque",
           "titulo": "Não sabe se o seu caso é aqui?",
           "texto": "Procure mesmo assim. Se não for atribuição do Conselho, você será orientado sobre qual órgão procura e, quando necessário, o próprio Conselho faz o encaminhamento."
+        },
+        {
+          "tipo": "aviso",
+          "titulo": "Este site não recebe denúncia",
+          "texto": "Aqui você encontra informação e os caminhos para pedir ajuda. A comunicação de uma situação de risco é feita sempre por um canal de atendimento — telefone do plantão, e-mail ou presencialmente na sede. Este site não registra nada do que você faz nele."
         }
       ],
       "resumo": "As atribuições do Conselho e os limites da atuação",
@@ -506,6 +589,11 @@
         },
         {
           "tipo": "aviso",
+          "titulo": "O Instagram não recebe denúncia",
+          "texto": "Os dois conselhos pedem, no próprio perfil: não faça denúncia pelo direct do Instagram. As mensagens do direct não são acompanhadas 24 horas e uma criança em risco não pode depender disso. Use o telefone do plantão, o e-mail ou vá pessoalmente à sede."
+        },
+        {
+          "tipo": "aviso",
           "titulo": "Fora do horário de expediente",
           "texto": "O plantão de 24 horas funciona todos os dias, inclusive fins de semana e feriados, para situações urgentes."
         },
@@ -519,9 +607,13 @@
           ]
         },
         {
-          "tipo": "aviso",
-          "titulo": "Horário de atendimento e território",
-          "texto": "«A CONFIRMAR COM O CONSELHO» Serão informados aqui o horário de funcionamento de cada conselho, o endereço do I Conselho Tutelar e quais bairros cada um atende."
+          "tipo": "texto",
+          "titulo": "Horário de atendimento",
+          "paragrafos": [
+            "As duas sedes atendem de segunda a sexta, das 8h às 12h e das 13h às 17h.",
+            "Sábados, domingos e feriados as sedes ficam fechadas. Nesses dias o atendimento é pelo plantão sobre aviso, que funciona 24 horas, todos os dias do ano.",
+            "Cada conselho tem cinco conselheiros em escala: dois no atendimento da sede, dois no plantão externo sobre aviso e um de folga. Nos fins de semana ficam dois plantonistas sobre aviso. A troca de plantonistas acontece às 8h."
+          ]
         },
         {
           "tipo": "destaque",

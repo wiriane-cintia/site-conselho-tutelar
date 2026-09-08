@@ -51,7 +51,7 @@
       <div class="busca-bairro__ficha" id="ficha-<%= chave %>" hidden>
         <ul class="secao-contatos__lista">
           <% conselhos[chave].telefones.forEach(function (tel, i) { %>
-            <li><%- include('telefone', { href: 'tel:' + conselhos[chave].telefones_link[i], rotulo: tel, tipo: 'telefone' }) %></li>
+            <li><%- include('telefone', { href: 'tel:' + conselhos[chave].telefones_link[i], rotulo: tel, tipo: 'telefone', confirmado: conselhos[chave].telefones_confirmados !== false }) %></li>
           <% }); %>
           <li><%- include('telefone', { href: 'https://wa.me/' + conselhos[chave].plantao_24h_link + '?text=Ol%C3%A1%2C%20preciso%20de%20ajuda', rotulo: 'Plantão 24h — ' + conselhos[chave].plantao_24h, tipo: 'whatsapp' }) %></li>
           <% if (conselhos[chave].endereco) { %>
