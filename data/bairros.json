@@ -5,187 +5,233 @@
   "rotulo_lista_aberta": "Fechar lista",
   "instrucao": "Nome do bairro",
   "aviso": "Se o seu bairro não aparecer, ou se você não tiver certeza, ligue para qualquer um dos dois conselhos: eles orientam e encaminham.",
-  "fonte": "Lista de bairros: portal da Prefeitura de Juazeiro do Norte. Divisão entre os conselhos: publicação do II Conselho Tutelar. «A CONFIRMAR» com os conselhos na reunião.",
+  "fonte": "Divisão confirmada pelo Conselho Tutelar em 07/09/2026 para os bairros marcados. Os demais vêm de publicação anterior do II Conselho Tutelar e aguardam confirmação — nesses casos o site mostra os dois conselhos.",
   "bairros": [
     {
       "nome": "Aeroporto",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Antônio Vieira",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Betolândia",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Brejo Seco",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Campo Alegre",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Carité",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Centro",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Cidade Universitária",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Distrito de Marrocos",
-      "conselho": null
+      "conselho": null,
+      "confirmado": false
     },
     {
       "nome": "Distrito Padre Cícero",
-      "conselho": null
+      "conselho": null,
+      "confirmado": false
     },
     {
       "nome": "Franciscanos",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Frei Damião",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Horto",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Jardim Gonzaga",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "João Cabral",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "João José",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": false
     },
     {
       "nome": "José Geraldo da Cruz",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Juvêncio Santana",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Lagoa Seca",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Leandro Bezerra de Menezes",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Limoeiro",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Monsenhor Francisco de Sá Barreto",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": false
     },
     {
       "nome": "Monsenhor Murilo de Sá Barreto",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Novo Juazeiro",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Palmeirinha",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": false
     },
     {
       "nome": "Parque São Geraldo",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": false
     },
     {
       "nome": "Pedrinhas",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Pio XII",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Pirajá",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Planalto",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Professora Maria Geli",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": false
     },
     {
       "nome": "Romeirão",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Salesianos",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Salgadinho",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Santa Tereza",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Santo Antônio",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "São José",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": false
     },
     {
       "nome": "São Miguel",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": false
     },
     {
       "nome": "Socorro",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Timbaúbas",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Tiradentes",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Triângulo",
-      "conselho": "conselho_2"
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Vila Fátima",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Vila Três Marias",
-      "conselho": "conselho_1"
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Zona Rural",
-      "conselho": null
+      "conselho": "conselho_1",
+      "confirmado": true
     }
-  ]
+  ],
+  "aviso_nao_confirmado": "A divisão deste bairro ainda não foi confirmada pelos conselhos. Ligue para qualquer um dos dois: eles atendem e fazem o encaminhamento."
 }

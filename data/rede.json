@@ -1,6 +1,6 @@
 {
   "atualizado_em": "setembro de 2026",
-  "fonte": "Portal da Prefeitura de Juazeiro do Norte e Ministério Público do Ceará. «A CONFIRMAR» com o Conselho Tutelar antes da publicação definitiva.",
+  "fonte": "Portal da Prefeitura de Juazeiro do Norte, Ministério Público do Ceará e informações do Conselho Tutelar em 07/09/2026. Os itens marcados «A CONFIRMAR» seguem em levantamento.",
   "grupos": [
     {
       "titulo": "Assistência social — apoio à família",
@@ -80,12 +80,23 @@
           "telefone": "(88) 93618-0149",
           "telefone_link": "+5588936180149",
           "horario": "Segunda a sexta, das 8h às 17h"
+        },
+        {
+          "nome": "Abordagem Social",
+          "descricao": "Atende criança e adolescente em situação de rua ou pedindo em semáforo. É para onde ligar nesses casos, e não para o Conselho Tutelar. Informado pelo Conselho Tutelar em 07/09/2026.",
+          "telefone": "(88) 93618-0148",
+          "telefone_link": "+5588936180148"
         }
       ]
     },
     {
       "titulo": "Quando o direito já foi violado",
       "itens": [
+        {
+          "nome": "Setor de Escuta Especializada",
+          "descricao": "Ouve a criança ou o adolescente sobre a violência sofrida, com técnico especializado. O Conselho Tutelar não faz a escuta especializada: ele encaminha para este setor. Informado pelo Conselho Tutelar em 07/09/2026.",
+          "endereco": "«A CONFIRMAR»"
+        },
         {
           "nome": "CREAS — Centro de Referência Especializado de Assistência Social",
           "descricao": "Acompanha famílias e pessoas que já tiveram direitos violados, incluindo violência e trabalho infantil.",
@@ -144,8 +155,8 @@
           "telefone_link": "+558835871642"
         },
         {
-          "nome": "Delegacia de Defesa da Mulher de Juazeiro do Norte",
-          "descricao": "Atendimento especializado quando a violência é contra a mulher.",
+          "nome": "Casa da Mulher Cearense — Juazeiro do Norte",
+          "descricao": "Serviço especializado de atendimento à mulher no município, informado pelo Conselho Tutelar. Registra ocorrência e encaminha pedido de medida protetiva. «A CONFIRMAR» endereço e telefone.",
           "endereco": "Rua das Flores, s/n — Santa Tereza",
           "telefone": "(88) 3102-1102",
           "telefone_link": "+558831021102"
@@ -153,6 +164,11 @@
         {
           "nome": "Ministério Público e Vara da Infância e da Juventude",
           "descricao": "«A CONFIRMAR» Endereços e telefones a serem confirmados com o Conselho Tutelar.",
+          "endereco": "«A CONFIRMAR»"
+        },
+        {
+          "nome": "Casa da Criança e do Adolescente",
+          "descricao": "Serviço especializado de atendimento a criança e adolescente no município, informado pelo Conselho Tutelar em 07/09/2026. «A CONFIRMAR» endereço, telefone e o que atende.",
           "endereco": "«A CONFIRMAR»"
         }
       ]

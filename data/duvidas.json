@@ -1,7 +1,7 @@
 {
   "botao": "Não sei por onde começar",
   "titulo": "Vamos por partes",
-  "instrucao": "Escolha a situação mais parecida com a sua.",
+  "instrucao": "Escolha a situação mais parecida com a sua. Este guia é informativo: nada do que você escolher fica gravado, e a comunicação é feita sempre por telefone ou pessoalmente.",
   "rotulo_voltar": "Voltar",
   "rotulo_recomecar": "Começar de novo",
   "rotulo_perguntas": "O que você quer saber?",
@@ -27,7 +27,112 @@
             "conselho": "conselho_2"
           }
         ]
-      }
+      },
+      "bairros": true,
+      "bairros_titulo": "Qual é o seu bairro?",
+      "bairros_ajuda": "Escolha o bairro para ver o plantão do conselho que atende ali. Se não souber, ligue para qualquer um dos dois."
+    },
+    {
+      "id": "nao-e-conselho",
+      "rotulo": "Preciso de ajuda com meu filho",
+      "perguntas": [
+        {
+          "rotulo": "Não aguento mais meu filho, posso deixar ele no Conselho?",
+          "resposta": {
+            "texto": [
+              "O Conselho Tutelar não é abrigo e não recebe criança entregue pela família. O acolhimento só acontece quando há risco, e depois de procurar alguém da própria família.",
+              "Mas procure o Conselho assim mesmo. Existe apoio para a família, pelo CRAS e pelo CREAS, e é exatamente disso que se trata quando alguém chega no limite."
+            ],
+            "pagina": {
+              "rotulo": "Ver o que o Conselho faz",
+              "rota": "/o-que-faz"
+            },
+            "canais": [
+              {
+                "rotulo": "I Conselho Tutelar — plantão 24h",
+                "conselho": "conselho_1"
+              },
+              {
+                "rotulo": "II Conselho Tutelar — plantão 24h",
+                "conselho": "conselho_2"
+              }
+            ]
+          }
+        },
+        {
+          "rotulo": "Vocês podem ir na minha casa dar um susto nele?",
+          "resposta": {
+            "texto": [
+              "Não. O Conselho Tutelar não aplica castigo e não serve para amedrontar criança ou adolescente.",
+              "O que ele faz é aplicar medidas de proteção previstas em lei, que podem incluir acompanhamento da família, encaminhamento para a saúde e apoio da assistência social."
+            ],
+            "pagina": {
+              "rotulo": "Ver o que o Conselho faz e o que não faz",
+              "rota": "/o-que-faz"
+            },
+            "canais": [
+              {
+                "rotulo": "I Conselho Tutelar — plantão 24h",
+                "conselho": "conselho_1"
+              },
+              {
+                "rotulo": "II Conselho Tutelar — plantão 24h",
+                "conselho": "conselho_2"
+              }
+            ]
+          }
+        },
+        {
+          "rotulo": "Quero passar a guarda do meu filho",
+          "resposta": {
+            "texto": [
+              "Guarda é decisão da Justiça, não do Conselho Tutelar.",
+              "Procure a Vara da Infância e da Juventude ou a Defensoria Pública, que orienta de graça quem não pode pagar advogado."
+            ],
+            "pagina": {
+              "rotulo": "Ver a rede de proteção",
+              "rota": "/rede-de-protecao"
+            },
+            "canais": [
+              {
+                "rotulo": "I Conselho Tutelar — plantão 24h",
+                "conselho": "conselho_1"
+              },
+              {
+                "rotulo": "II Conselho Tutelar — plantão 24h",
+                "conselho": "conselho_2"
+              }
+            ]
+          }
+        },
+        {
+          "rotulo": "Meu filho está fora da escola",
+          "resposta": {
+            "texto": [
+              "Isso é caso para o Conselho Tutelar. Criança e adolescente fora da escola, sem matrícula ou faltando muito, é situação de direito ameaçado.",
+              "O Conselho aciona a escola e a rede para garantir a vaga e o retorno."
+            ],
+            "pagina": {
+              "rotulo": "Ver quando procurar o Conselho",
+              "rota": "/"
+            },
+            "canais": [
+              {
+                "rotulo": "I Conselho Tutelar — plantão 24h",
+                "conselho": "conselho_1"
+              },
+              {
+                "rotulo": "II Conselho Tutelar — plantão 24h",
+                "conselho": "conselho_2"
+              },
+              {
+                "rotulo": "100 — Disque Direitos Humanos, denúncia anônima",
+                "href": "tel:100"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "quero-avisar",
