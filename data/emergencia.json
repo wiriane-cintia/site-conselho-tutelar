@@ -5,6 +5,7 @@
     { "conselho": "conselho_1" },
     { "conselho": "conselho_2" },
     { "rotulo": "190 — Polícia Militar, para risco imediato", "href": "tel:190" },
+    { "rotulo": "192 — SAMU, emergência médica (em surto psicótico, peça o SAMU avançado)", "href": "tel:192" },
     { "rotulo": "100 — Disque Direitos Humanos, denúncia anônima", "href": "tel:100" }
   ]
 }

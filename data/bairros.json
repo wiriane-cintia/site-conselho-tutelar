@@ -5,7 +5,7 @@
   "rotulo_lista_aberta": "Fechar lista",
   "instrucao": "Nome do bairro",
   "aviso": "Se o seu bairro não aparecer, ou se você não tiver certeza, ligue para qualquer um dos dois conselhos: eles orientam e encaminham.",
-  "fonte": "Divisão confirmada pelo Conselho Tutelar em 07/09/2026 para os bairros marcados. Os demais vêm de publicação anterior do II Conselho Tutelar e aguardam confirmação — nesses casos o site mostra os dois conselhos.",
+  "fonte": "Divisão confirmada pelo Conselho Tutelar em 07/09/2026 e complementada na reunião de 08/09/2026. \"João José\" foi removido da lista: o Conselho informou que esse bairro não existe no município.",
   "bairros": [
     {
       "nome": "Aeroporto",
@@ -49,13 +49,8 @@
     },
     {
       "nome": "Distrito de Marrocos",
-      "conselho": null,
-      "confirmado": false
-    },
-    {
-      "nome": "Distrito Padre Cícero",
-      "conselho": null,
-      "confirmado": false
+      "conselho": "conselho_1",
+      "confirmado": true
     },
     {
       "nome": "Franciscanos",
@@ -78,17 +73,12 @@
       "confirmado": true
     },
     {
-      "nome": "João Cabral",
+      "nome": "José Geraldo da Cruz",
       "conselho": "conselho_2",
       "confirmado": true
     },
     {
-      "nome": "João José",
-      "conselho": "conselho_1",
-      "confirmado": false
-    },
-    {
-      "nome": "José Geraldo da Cruz",
+      "nome": "João Cabral",
       "conselho": "conselho_2",
       "confirmado": true
     },
@@ -113,12 +103,7 @@
       "confirmado": true
     },
     {
-      "nome": "Monsenhor Francisco de Sá Barreto",
-      "conselho": "conselho_1",
-      "confirmado": false
-    },
-    {
-      "nome": "Monsenhor Murilo de Sá Barreto",
+      "nome": "Monsenhor Francisco Murilo de Sá Barreto",
       "conselho": "conselho_2",
       "confirmado": true
     },
@@ -128,14 +113,19 @@
       "confirmado": true
     },
     {
+      "nome": "Oasis",
+      "conselho": "conselho_2",
+      "confirmado": true
+    },
+    {
       "nome": "Palmeirinha",
       "conselho": "conselho_1",
-      "confirmado": false
+      "confirmado": true
     },
     {
       "nome": "Parque São Geraldo",
-      "conselho": "conselho_1",
-      "confirmado": false
+      "conselho": "conselho_2",
+      "confirmado": true
     },
     {
       "nome": "Pedrinhas",
@@ -160,7 +150,7 @@
     {
       "nome": "Professora Maria Geli",
       "conselho": "conselho_1",
-      "confirmado": false
+      "confirmado": true
     },
     {
       "nome": "Romeirão",
@@ -188,18 +178,18 @@
       "confirmado": true
     },
     {
+      "nome": "Socorro",
+      "conselho": "conselho_1",
+      "confirmado": true
+    },
+    {
       "nome": "São José",
       "conselho": "conselho_2",
-      "confirmado": false
+      "confirmado": true
     },
     {
       "nome": "São Miguel",
       "conselho": "conselho_2",
-      "confirmado": false
-    },
-    {
-      "nome": "Socorro",
-      "conselho": "conselho_1",
       "confirmado": true
     },
     {
@@ -219,6 +209,11 @@
     },
     {
       "nome": "Vila Fátima",
+      "conselho": "conselho_1",
+      "confirmado": true
+    },
+    {
+      "nome": "Vila Padre Cícero",
       "conselho": "conselho_1",
       "confirmado": true
     },
