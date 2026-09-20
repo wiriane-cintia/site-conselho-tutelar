@@ -77,7 +77,7 @@
           "texto": "A Lei 13.431/2017 diz que a criança que presencia violência contra alguém de quem ela gosta é vítima de violência psicológica — não é testemunha. Os mesmos conselhos mantêm um site com os serviços de atendimento à mulher em Juazeiro do Norte, o que a Lei Maria da Penha garante e o que fazer em caso de risco.",
           "link": {
             "rotulo": "Abrir o site da Rede de Proteção",
-            "href": "https://TROCAR-PELO-ENDERECO-DO-SITE-DE-VIOLENCIA-DOMESTICA",
+            "href": "https://redeprotecaojn.vercel.app",
             "externo": true
           }
         }
@@ -532,7 +532,7 @@
           "texto": "Quando a violência atinge a mãe ou a responsável, atinge também a criança que mora na casa. Existe um site separado, feito pelos mesmos conselhos, com os serviços de atendimento à mulher em Juazeiro do Norte, o que a Lei Maria da Penha garante e o que fazer em caso de risco.",
           "link": {
             "rotulo": "Abrir o site da Rede de Proteção",
-            "href": "https://TROCAR-PELO-ENDERECO-DO-SITE-DE-VIOLENCIA-DOMESTICA",
+            "href": "https://redeprotecaojn.vercel.app",
             "externo": true
           }
         },
@@ -621,7 +621,7 @@
           "texto": "Se a situação envolve violência contra uma mulher, uma pessoa idosa ou uma pessoa com deficiência da mesma casa, existe um site separado, feito pelos mesmos conselhos, com os serviços que atendem cada uma dessas situações na cidade.",
           "link": {
             "rotulo": "Abrir o site da Rede de Proteção",
-            "href": "https://TROCAR-PELO-ENDERECO-DO-SITE-DE-VIOLENCIA-DOMESTICA",
+            "href": "https://redeprotecaojn.vercel.app",
             "externo": true
           }
         }

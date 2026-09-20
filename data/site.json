@@ -1,9 +1,10 @@
 {
   "nome": "Conselho Tutelar de Juazeiro do Norte",
   "identidade": "ct",
-  "prototipo": true,
+  "prototipo": false,
   "prototipo_texto": "PROTÓTIPO — conteúdo em validação pelo Conselho Tutelar. Não use como fonte oficial.",
   "descricao": "Site oficial do I e II Conselho Tutelar de Juazeiro do Norte/CE — direitos da criança e do adolescente, canais de atendimento e rede de proteção.",
+  "dominio": "https://conselhotutelarjn.com.br",
   "barra_titulo": "Conselho Tutelar de Juazeiro do Norte/CE",
   "sufixo_aba": "Conselho Tutelar JN"
 }
