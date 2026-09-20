@@ -136,7 +136,11 @@ app.use((req, res, next) => {
   res.render(entrada.view, {
     // O titulo da aba pode ser diferente do titulo na tela: no site VD ele e
     // neutro, para nao denunciar o assunto no historico do navegador.
-    titulo: (pagina.titulo_aba || pagina.titulo) + (site.sufixo_aba ? ' — ' + site.sufixo_aba : ''),
+    // Na Home do CT, o titulo_aba sozinho ja e a frase de busca que queremos
+    // ranquear ("Conselho Tutelar de Juazeiro do Norte") — repetir o sufixo
+    // da marca ali so dilui a palavra-chave, entao pulamos o sufixo so nessa
+    // pagina.
+    titulo: (pagina.titulo_aba || pagina.titulo) + (site.sufixo_aba && entrada.rota !== '/' ? ' — ' + site.sufixo_aba : ''),
     pagina,
     site,
     navegacao: paginas.navegacao,
